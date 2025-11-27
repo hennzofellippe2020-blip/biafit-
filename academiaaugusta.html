@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Academia Augusta | Bia Fit</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS Personalizado -->
+  <style>
+    /* ======== NAVBAR ======== */
+    .navbar {
+      background-color: #000;
+    }
+
+    .navbar-brand, .nav-link {
+      color: #fff !important;
+      font-weight: 500;
+    }
+
+    .nav-link:hover {
+      color: #ffc107 !important;
+    }
+
+    .navbar-toggler {
+      border-color: #ffc107;
+    }
+
+    body {
+      padding-top: 80px; /* Espaço para navbar fixa */
+      background-color: #fff;
+    }
+
+    /* ======== Carrossel ======== */
+    .carousel-inner img {
+      height: 400px;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .carousel-caption {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 1rem;
+      border-radius: 0.5rem;
+    }
+
+    /* ======== Layout ======== */
+    .info-box {
+      background-color: #f8f9fa;
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    .header {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .texto-banner h1 {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    footer ul {
+      padding-left: 0;
+      list-style: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ======== NAVBAR FIXA ======== -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="smartfit.html">🏠 Início</a>
+
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="academiaaugusta.html">Academia Augusta</a></li>
+          <li class="nav-item"><a class="nav-link" href="avenidaangelica.html">Av. Angélica</a></li>
+          <li class="nav-item"><a class="nav-link" href="Academiabelavista.html">Bela Vista</a></li>
+          <li class="nav-item"><a class="nav-link" href="espaçodocliente.html">Espaço do Cliente</a></li>
+           <li class="nav-item">
+          <a class="nav-link" href="academiaAlameda.html" target="_blank">Academia Alameda</a>
+        </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Cabeçalho -->
+  <div class="container">
+    <div class="header">
+      <img src="./img/Bia (1).jpg" alt="Smart Fit" height="120">
+    </div>
+    <div class="texto-banner">
+      <h1>E aí, onde você quer treinar?</h1>
+    </div>
+  </div>
+
+  <!-- Conteúdo principal -->
+  <div class="container mt-4">
+    <div class="row">
+    
+      <!-- Carrossel -->
+      <div class="col-md-7">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <!-- Indicadores -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+
+          <!-- Imagens -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/imgaugusta.jpg" class="d-block w-100" alt="Imagem 1">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Academia Augusta</h5>
+                <p>Rua Augusta, 1585 - Consolação. São Paulo, SP - 01305100</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/imglocal1.2.webp" class="d-block w-100" alt="Imagem 2">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Academia Augusta</h5>
+                <p>Rua Augusta, 1585 - Consolação. São Paulo, SP - 01305100</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/imglocal1.webp" class="d-block w-100" alt="Imagem 3">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Academia Augusta</h5>
+                <p>Rua Augusta, 1585 - Consolação. São Paulo, SP - 01305100</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controles -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Caixa de informações -->
+      <div class="col-md-5">
+        <div class="info-box">
+          <h2>Academia Augusta</h2>
+          <h4>Horário de funcionamento</h4>
+          <p><strong>Seg a Sex:</strong> 5h - 23h</p>
+          <p><strong>Sáb/Feriados:</strong> 8h - 17h</p>
+          <p><strong>Dom:</strong> 8h - 14h</p>
+          <h4>Endereço</h4>
+          <p>Rua Augusta, 1585 - Consolação<br>São Paulo, SP - 01305100</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Formulário -->
+  <div class="container mt-5">
+    <h4 class="mb-4">Cadastre-se para uma aula grátis</h4>
+    <form>
+      <div class="mb-3">
+        <label for="nome" class="form-label">Nome completo</label>
+        <input type="text" class="form-control" id="nome" placeholder="Seu nome" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="email" class="form-label">E-mail</label>
+        <input type="email" class="form-control" id="email" placeholder="seuemail@exemplo.com" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="telefone" class="form-label">Telefone</label>
+        <input type="tel" class="form-control" id="telefone" placeholder="(11) 99999-9999" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="unidade" class="form-label">Unidade</label>
+        <select class="form-select" id="unidade" required>
+          <option value="" disabled selected>Selecione a unidade</option>
+          <option value="augusta">Augusta</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label for="mensagem" class="form-label">Mensagem (opcional)</label>
+        <textarea class="form-control" id="mensagem" rows="3" placeholder="Escreva uma observação, se desejar"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Enviar cadastro</button>
+    </form>
+  </div>
+
+  <!-- Rodapé -->
+  <footer class="bg-dark text-white py-4 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <h5>Smart Fit</h5>
+          <p>2025 Todos os direitos reservados.</p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h5>Autores</h5>
+          <ul>
+            <li>Bianca Aguiar Santos</li>
+            <li>Hennzo Fellippe Nascimento Queiroz</li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h5>Redes sociais</h5>
+          <a href="#" class="text-white me-2">Facebook</a>
+          <a href="#" class="text-white me-2">Instagram</a>
+          <a href="#" class="text-white">Twitter</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

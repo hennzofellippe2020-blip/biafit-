@@ -1,0 +1,211 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  position: fixed;
+  top: 0; left: 0; width: 100%;
+  background: #fff;
+}
+
+nav img { height: 50px; }
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+}
+.Banner {
+  max-width: 1300px; /* largura máxima */
+  height: auto;     /* mantém proporção */
+  display: block;
+  margin: 20px auto; /* centraliza */
+  border-radius: 10px;
+}
+.planos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 50px auto;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.card h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.card p {
+    color: #666;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+
+.card button {
+    background-color: #ffc107;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+    border-radius: 20px;
+}
+
+.card button:hover {
+    background-color: #e0a800;
+    
+}
+.equipamentos{
+ border-radius: 20px; 
+}
+.musculacao{
+  border-radius: 20px;
+}
+.salas{
+  border-radius: 20px;
+}
+
+
+.card-black {
+    background-color: #333; /* Cor de fundo escura */
+    color: #fff; /* Cor do texto branca */
+    border: none;
+}
+
+/* Para o botão dentro do card preto */
+.card-black button {
+    background-color: #ffc107; /* Cor do botão */
+    color: #333; /* Cor do texto do botão */
+    border: none;
+}
+
+/* Opcional: Estilo para a tag 'p' e 'h3' dentro do card preto */
+.card-black h3,
+.card-black p {
+    color: #fff; /* Garante que o texto seja branco */
+}
+.text-text {
+    /* Define o fundo como um degradê linear, da esquerda para a direita */
+    background: linear-gradient(to right, #242323, #ffd207);
+    
+    /* Faz com que o fundo seja "recortado" para a forma do texto */
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    /* Torna a cor do texto transparente, revelando o degradê por trás */
+    color: transparent;
+
+    /* Adicional: Estilos de fonte para o texto */
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+.aulas-treinos {
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo-destaque {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.titulo-destaque .destaque {
+    color: #ffc107;
+}
+
+/* Container de alinhamento */
+.treino-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* Estilo do Card */
+.treino-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 320px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: left;
+}
+
+.treino-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.treino-card .conteudo {
+    padding: 20px;
+}
+
+.treino-card h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Informações de Duração e Intensidade */
+.treino-card .infos {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.treino-card .infos p {
+    font-size: 14px;
+    color: #333;
+}
+
+.treino-card .infos span {
+    font-weight: bold;
+    color: #ffc107;
+}
+
+/* Descrição e Botão */
+.treino-card .descricao {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.saiba-mais {
+    background-color: #ffc107;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+
+.saiba-mais:hover {
+    background-color: #e0a800;
+}

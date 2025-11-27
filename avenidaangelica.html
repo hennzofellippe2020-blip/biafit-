@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academia Avenida Angélica</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      padding-top: 70px; /* espaço para navbar fixa */
+    }
+
+    .carousel-inner {
+      height: 400px;
+    }
+
+    .carousel-inner img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+    }
+
+    .carousel-caption {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 1rem;
+      border-radius: 0.5rem;
+    }
+
+    .custom-carousel {
+      width: 100%;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .info-box {
+      background-color: #f8f9fa;
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .texto-banner {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="smartfit.html">🏠 Início</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="academiaaugusta.html">Academia Augusta</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="avenidaangelica.html">Academia Av. Angélica</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Academiabelavista.html">Academia Bela Vista</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="espaçodocliente.html">Espaço do Cliente</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="academiaAlameda.html" target="_blank">Academia Alameda</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <!-- Header -->
+  <div class="header text-center">
+    <img src="./img/Bia (1).jpg" alt="Smart Fit" height="120">
+  </div>
+  <div class="texto-banner">
+    <h1>E aí, onde você quer treinar?</h1>
+  </div>
+
+  <!-- Carousel e informações -->
+  <div class="row mt-4">
+    <div class="col-md-7">
+      <div id="carouselAngelica" class="carousel slide custom-carousel" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselAngelica" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselAngelica" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselAngelica" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/avenidaangelica.jpg" class="d-block w-100" alt="Imagem 1">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Academia Angélica</h5>
+              <p>Av. Angélica, 2222 - Higienópolis, São Paulo - SP, 01227-200</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/avenidaangelica1.jpg" class="d-block w-100" alt="Imagem 2">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Academia Angélica</h5>
+              <p>Av. Angélica, 2222 - Higienópolis, São Paulo - SP, 01227-200</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/avenidaangelica3.jpg" class="d-block w-100" alt="Imagem 3">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Academia Angélica</h5>
+              <p>Av. Angélica, 2222 - Higienópolis, São Paulo - SP, 01227-200</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselAngelica" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselAngelica" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="col-md-5">
+      <div class="info-box">
+        <h4>Informações da Unidade</h4>
+        <p><strong>Nome:</strong> Academia Angélica</p>
+        <p><strong>Endereço:</strong> Av. Angélica, 2222</p>
+        <p><strong>Bairro:</strong> Higienópolis</p>
+        <p><strong>Cidade:</strong> São Paulo - SP</p>
+        <p><strong>CEP:</strong> 01227-200</p>
+        <hr>
+        <p><strong>Horário de Funcionamento:</strong><br>
+        Seg a Sex: 06h - 22h<br>
+        Sábado: 08h - 14h</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Formulário -->
+  <div class="mt-5">
+    <h4 class="mb-4">Cadastre-se para uma aula grátis</h4>
+    <form>
+      <div class="mb-3">
+        <label for="nome" class="form-label">Nome completo</label>
+        <input type="text" class="form-control" id="nome" placeholder="Seu nome" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="email" class="form-label">E-mail</label>
+        <input type="email" class="form-control" id="email" placeholder="seuemail@exemplo.com" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="telefone" class="form-label">Telefone</label>
+        <input type="tel" class="form-control" id="telefone" placeholder="(11) 99999-9999" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="unidade" class="form-label">Unidade</label>
+        <select class="form-select" id="unidade" required>
+          <option value="" disabled selected>Selecione a unidade</option>
+          <option value="angelica">Angélica</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label for="mensagem" class="form-label">Mensagem (opcional)</label>
+        <textarea class="form-control" id="mensagem" rows="3" placeholder="Escreva uma observação, se desejar"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Enviar cadastro</button>
+    </form>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-white py-4 mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <h5>Smart Fit</h5>
+        <p>2025 Todos os direitos reservados.</p>
+      </div>
+
+      <div class="col-md-4 mb-3">
+        <h5>Nome dos Autores:</h5>
+        <ul class="autores">
+          <li>Bianca Aguiar Santos</li>
+          <li>Hennzo Fellippe Nascimento Queiroz</li>
+        </ul>
+      </div>
+
+      <div class="col-md-4 mb-3">
+        <h5>Redes sociais</h5>
+        <a href="#" class="text-white me-2">Facebook</a>
+        <a href="#" class="text-white me-2">Instagram</a>
+        <a href="#" class="text-white">Twitter</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
